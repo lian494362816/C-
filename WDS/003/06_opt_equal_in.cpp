@@ -142,7 +142,9 @@ public:
         memcpy(this->name, p.name, strlen(p.name));
 
         this->work = new char[strlen(p.work) + 1];
-        memcpy(this->work, p.work, strlen(p.name));
+        memcpy(this->work, p.work, strlen(p.work));
+
+        return *this;
     }
 
     void print_info(void)

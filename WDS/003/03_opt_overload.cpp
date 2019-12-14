@@ -100,14 +100,14 @@ int main(int argc, char *argv[])
     cout << "==============" << endl;
     // 后缀++，p3,p4的值不同
     Point p4 = p3++;
-    // Point p4 = operator++(p3); 与上面的等价
+    //Point p4 = operator++(p3,0); //与上面的等价
     p4.print_info();
     p3.print_info();
     cout << "==============" << endl;
 
     // 前缀++，p3,p5的值相同
     Point p5 = ++p3;
-     // Point p5 = operator++(p3， 0); 与上面的等价
+    //Point p5 = operator++(p3); //与上面的等价
     p5.print_info();
     p3.print_info();
     cout << "==============" << endl;

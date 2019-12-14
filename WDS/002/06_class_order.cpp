@@ -43,7 +43,7 @@ public:
         memcpy(this->name, p.name, strlen(p.name));
 
         this->work = new char[strlen(p.work) + 1];
-        memcpy(this->work, p.work, strlen(p.name));
+        memcpy(this->work, p.work, strlen(p.work));
     }
 
     // 析构函数
