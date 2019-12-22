@@ -93,3 +93,37 @@
 	07_const.cpp
 		拷贝构造函数必须使用const修饰，否则使用const 修饰的对象去赋值给另一个对象时会报错
 		因为const 对象只能调用const修饰的成员函数
+
+004
+    01_public_inherit.cpp
+        公有继承
+
+    02_public_inherit.cpp
+        测试类的public继承，私有成员，保护成员，公有成员的访问权限
+
+    03_public_inherit.cpp
+        测试类的public继承，使用using class::number 修改基类成员的属性
+    
+    04_inherit.cpp
+        测试类的publibc,protected,private继承的属性
+
+        继承属性总结：
+        1. 3种继承,pri 属性依旧保持不变
+        2. pub继承，所有属性不变
+        3. pro继承，pub属性变为pro
+        4. pri继承，所有属性变为pri
+
+        访问属性:
+        1. 3种继承，在成员内部访问情况是一样的，可以访问pub和pro,不能访问pri
+        2. pub继承，对象只能访问基类的pub成员
+        3. pro继承，对象不能访问基类的任何成员
+        4. pri继承，对象不能访问基类的任何成员
+
+    05_mul_inherit.cpp
+        测试类的多重继承属性
+
+    06_override.cpp
+        重写
+
+    07_inherit_space.cpp
+        测试派生类的空间分布
