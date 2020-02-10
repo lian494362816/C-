@@ -127,3 +127,20 @@
 
     07_inherit_space.cpp
         测试派生类的空间分布
+
+005:
+    01_polymorphism.cpp
+        测试多态，虚函数
+
+    02_polymorphism.cpp
+        测试多态，析构虚函数
+
+    03_convert.cpp
+        测试强制类型转换 reinterpret_cast, const_cast
+        
+    04_dynamic_cast.cpp 
+        测试dynamic_cast
+
+    05_abstract.cpp 
+        测试抽象类-纯虚函数
+
