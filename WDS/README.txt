@@ -144,3 +144,15 @@
     05_abstract.cpp 
         测试抽象类-纯虚函数
 
+	06_template
+		写一个简单的模板, 将.cpp .h 分开放置		
+
+	07_template_virtual
+		在06_template的基础上添加虚函数
+
+	08_template_lib
+		在07_template_virtual的基础上, 把除main.c外的全部编译成库
+		使用./do.sh 来执行, 避免每次都添加库
+
+	09_template_abstract	
+		使用抽象类, main.c可以不包含依赖的.h 也可以得到上行转换后的对象
